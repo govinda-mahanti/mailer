@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: process.env.FRONTEND_URL || "http://localhost:3000/api/auth",
+  baseURL: process.env.FRONTEND_URL || "https://mailer-lemon-one.vercel.app/api/auth",
   withCredentials: true,
 });
 
