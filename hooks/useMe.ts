@@ -25,6 +25,7 @@ export interface UserProfile {
 
   createdAt?: string;
   updatedAt?: string;
+   phone?: string;
 }
 
 /* 🔹 MAIL STATS */
